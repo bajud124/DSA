@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/running-sum-of-1d-array/#:~:text=We%20define%20a%20running%20sum,2%2B3%2B4%5D.
 package LeetCode;
 
 public class RunningSumof1dArray {

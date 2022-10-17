@@ -1,5 +1,6 @@
+// https://practice.geeksforgeeks.org/problems/reverse-a-string/1
 
-class ReverseString {
+public class ReverseString {
     // Complete the function
     // str: input string
     public static String reverseWord(String str) {
