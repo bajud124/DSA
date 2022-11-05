@@ -25,5 +25,9 @@ public class _Stack {
         // it will return true if stack is empty
         // O/P: false
         System.out.println(animals.empty());
+
+        // it will return index of searched value if not present then return -1
+        // O/P: 2
+        System.out.println(animals.search("dog"));
     }
 }
