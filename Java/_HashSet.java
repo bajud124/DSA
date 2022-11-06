@@ -14,7 +14,7 @@ public class _HashSet {
          */
 
         /**
-         * Declare set 
+         * Declare set
          * Contain element in unorderd way
          * ALl operation perfrom in O(1)
          */
@@ -35,7 +35,7 @@ public class _HashSet {
         set.remove(5);
 
         /**
-         * This will return true if set contian given value 
+         * This will return true if set contian given value
          */
         set.contains(5);
 
@@ -57,7 +57,7 @@ public class _HashSet {
         // ------------- Using for each loop -----------------
         // Iterating over hash set items
         for (Integer i : set)
-            System.out.println(i);      
+            System.out.println(i);
 
         // -------------Iterator method---------------
         // Iterating over HashSet elements
@@ -69,7 +69,6 @@ public class _HashSet {
             // Printing the elements
             System.out.println(i.next());
 
-
         /**
          * Declare linked set
          * This will store element in order of insertion
@@ -77,12 +76,11 @@ public class _HashSet {
          */
         Set<Integer> linkedSet = new LinkedHashSet<>();
 
-
         /**
-         * Declare tree set 
-         * This will store element in asending order of value 
+         * Declare tree set
+         * This will store element in asending order of value
          * Other all property will remain same as HashSet
-         * All operation perform in O(log(n)) time 
+         * All operation perform in O(log(n)) time
          */
         Set<Integer> treeSet = new TreeSet<>();
     }

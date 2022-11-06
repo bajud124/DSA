@@ -11,7 +11,7 @@ public class _HashMap {
          * Declare HashMap with key and value pair
          * All Operation perfrom in O(1)
          */
-        Map<String, Integer> numbers = new HashMap<String,Integer>();
+        Map<String, Integer> numbers = new HashMap<String, Integer>();
 
         /**
          * Add key and value pair in HashMap
@@ -31,7 +31,7 @@ public class _HashMap {
         numbers.getOrDefault("One", 1);
 
         /**
-         * If key is present in HalsMap then this key value is replace with new value 
+         * If key is present in HalsMap then this key value is replace with new value
          */
         numbers.put("Two", 23);
 
@@ -66,29 +66,28 @@ public class _HashMap {
         numbers.clear();
 
         /**
-         * Itrrate over HashMap to get set 
+         * Itrrate over HashMap to get set
          */
         for (Map.Entry<String, Integer> entry : numbers.entrySet()) {
             System.out.println(entry.getKey() + " : " + entry.getValue());
         }
 
         /**
-         * Itrrate over HashMap to get key 
+         * Itrrate over HashMap to get key
          */
         for (String key : numbers.keySet()) {
             System.out.println(key);
         }
 
         /**
-         * Itrate over HashMap to get value 
-          */
+         * Itrate over HashMap to get value
+         */
         for (Integer value : numbers.values()) {
             System.out.println(value);
         }
 
-
         /**
-         * This will store set in asending order of Key 
+         * This will store set in asending order of Key
          * Other will same as hashMap
          * All operation perform in O(log(n)) time
          */

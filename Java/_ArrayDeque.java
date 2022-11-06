@@ -9,7 +9,7 @@ public class _ArrayDeque {
          */
         ArrayDeque<Integer> arrayDeque = new ArrayDeque<Integer>();
 
-        // Offer and offerFirst would be same 
+        // Offer and offerFirst would be same
         /**
          * This will add element at tail side of Queue
          */
@@ -25,7 +25,7 @@ public class _ArrayDeque {
          */
         arrayDeque.offerLast(3);
 
-        // Peek and peekFirst would be same 
+        // Peek and peekFirst would be same
         /**
          * This will reutrn haed element of Queue
          * same as offer
@@ -42,5 +42,5 @@ public class _ArrayDeque {
         arrayDeque.poll();
         arrayDeque.pollFirst();
         arrayDeque.pollLast();
-    } 
+    }
 }

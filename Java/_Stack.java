@@ -6,15 +6,15 @@ import java.util.Stack;
 
 public class _Stack {
     public static void main(String[] args) {
-        // decalre stack 
+        // decalre stack
         Stack<String> animals = new Stack<String>();
 
-        // add element in stack 
+        // add element in stack
         animals.push("dog");
         animals.push("cat");
         animals.push("lion");
 
-        // it will pick last element from stack 
+        // it will pick last element from stack
         // O/P: lion
         System.out.println(animals.peek());
 

@@ -29,7 +29,7 @@ public class BasicsOfJava {
         // String, Object, Array
 
         try (// Taking user input
-        Scanner sc = new Scanner(System.in)) {
+                Scanner sc = new Scanner(System.in)) {
             int age = sc.nextInt(); // taking input from user
             float salary = sc.nextFloat(); // taking input from user
             String name = sc.next(); // taking input from user

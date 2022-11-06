@@ -7,7 +7,7 @@ import Common.TreeNode;
 
 public class _Tree {
     public static void main(String[] args) {
-        int[] array = {1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1};
+        int[] array = { 1, 2, 4, -1, -1, 5, -1, -1, 3, -1, 6, -1, -1 };
         TreeNode root = createTree(array);
         // preOrder(root);
         // System.out.println();
@@ -26,40 +26,40 @@ public class _Tree {
         }
         int left = height(root.left);
         int right = height(root.right);
-        return Math.max(left,right) + 1;
+        return Math.max(left, right) + 1;
     }
 
     // get root in preoder -> root, left, right
-    static void preOrder (TreeNode root) {
+    static void preOrder(TreeNode root) {
         if (root == null) {
             return;
         }
-        System.out.print(root.data+" ");
+        System.out.print(root.data + " ");
         preOrder(root.left);
         preOrder(root.right);
     }
 
     // get root list in order -> left, root, right
-    static void inOrder (TreeNode root) {
+    static void inOrder(TreeNode root) {
         if (root == null) {
             return;
         }
         inOrder(root.left);
-        System.out.print(root.data+" ");
+        System.out.print(root.data + " ");
         inOrder(root.right);
     }
 
     // get root list in post order -> left, right, root
-    static void postOrder (TreeNode root) {
+    static void postOrder(TreeNode root) {
         if (root == null) {
             return;
         }
         postOrder(root.left);
         postOrder(root.right);
-        System.out.print(root.data+" ");
+        System.out.print(root.data + " ");
     }
 
-    // get root list using order level 
+    // get root list using order level
     static void levelOrder(TreeNode root) {
         Queue<TreeNode> q = new LinkedList<>();
         q.add(root);
@@ -74,7 +74,7 @@ public class _Tree {
                     q.add(null);
                 }
             } else {
-                System.out.print(curr.data+" ");
+                System.out.print(curr.data + " ");
                 if (curr.left != null)
                     q.add(curr.left);
                 if (curr.right != null)
@@ -83,7 +83,7 @@ public class _Tree {
         }
     }
 
-    static TreeNode mirrorTree (TreeNode root) {
+    static TreeNode mirrorTree(TreeNode root) {
         if (root == null) {
             return null;
         }
@@ -95,6 +95,7 @@ public class _Tree {
     }
 
     static int idx = -1;
+
     public static TreeNode createTree(int[] array) {
         idx++;
         if (array[idx] == -1) {

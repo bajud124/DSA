@@ -8,9 +8,10 @@ public class _Queue {
         /** Declare queue */
         Queue<Integer> queue = new LinkedList<Integer>();
 
-        /** 
-         * This will add element to the queue 
-         * This will reutrn true or false */
+        /**
+         * This will add element to the queue
+         * This will reutrn true or false
+         */
         queue.offer(10);
         queue.offer(12);
         queue.offer(14);
@@ -21,8 +22,7 @@ public class _Queue {
          */
         queue.add(16);
 
-        
-        /** 
+        /**
          * This will Return and remove the head of the Queue
          * Return null if Queue is empty
          */

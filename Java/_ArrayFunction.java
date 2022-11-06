@@ -11,7 +11,7 @@ public class _ArrayFunction {
         System.out.println("Integer Array as List: "
                 + Arrays.asList(intArr));
 
-        // Sort Array 
+        // Sort Array
         // dual-pivot Quicksort on primitives.
         // Time Complexity : O(n log(n))
         Arrays.sort(intArr);

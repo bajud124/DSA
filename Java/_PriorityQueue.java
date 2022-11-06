@@ -16,17 +16,17 @@ public class _PriorityQueue {
          */
         PriorityQueue<Integer> rpq = new PriorityQueue<Integer>(Comparator.reverseOrder());
 
-
-        /** 
-         * This will add element to the PriorityQueue 
-         * This will reutrn true or false */
+        /**
+         * This will add element to the PriorityQueue
+         * This will reutrn true or false
+         */
         pq.offer(12);
         pq.offer(10);
         pq.offer(11);
         pq.offer(14);
 
         System.out.println(pq);
-        /** 
+        /**
          * This will Return and remove high priority element from the PriorityQueue
          */
         pq.poll();
