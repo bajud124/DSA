@@ -4,12 +4,13 @@
 import java.io.*;
 import java.util.*;
 
+import DSA450.ReverseTheArray;
+
 class Hello {
     public static void main(String[] args) {
-        Solution s = new Solution();
-        int[] nums = {4,3,11};
-        int [] res = s.maxSlidingWindow(nums, 3);
-        System.out.println(res);
+        ReverseTheArray rsa = new ReverseTheArray();
+        String rev = rsa.reverseWord("vatsal");
+        System.out.println(rev);
     }
 }
 

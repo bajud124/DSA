@@ -1,4 +1,5 @@
 //https://www.geeksforgeeks.org/maximum-and-minimum-in-an-array/
+package GFG;
 
 public class MinMaxOfArray {
     public static void main(String[] args) {
