@@ -75,6 +75,7 @@ public class BasicsOfJava {
                 System.out.println("Hello");
             } while (age < 18);
         }
+        
         // arrays
         // declare int array with size 10
         int marks[] = new int[10];
