@@ -2,7 +2,7 @@ package DSA450;
 
 import java.util.PriorityQueue;
 
-public class KthSmallestElement {
+public class Array2_KthSmallestElement {
     public static int kthSmallest(int[] arr, int l, int r, int k) {
         PriorityQueue<Integer> q = new PriorityQueue<Integer>();
         for (int i = 0; i < arr.length; i++) {

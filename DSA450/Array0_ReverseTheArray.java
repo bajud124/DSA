@@ -1,7 +1,7 @@
 // https://practice.geeksforgeeks.org/problems/reverse-a-string/1
 package DSA450;
 
-public class ReverseTheArray {
+public class Array0_ReverseTheArray {
     public String reverseWord(String str) {
         char[] ch = str.toCharArray();
         int length = str.length();

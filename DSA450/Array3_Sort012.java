@@ -1,6 +1,6 @@
 package DSA450;
 
-public class Sort012 {
+public class Array3_Sort012 {
     public static void sort012(int a[], int n)
     {
         int count0 = 0;

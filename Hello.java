@@ -4,11 +4,11 @@
 import java.io.*;
 import java.util.*;
 
-import DSA450.ReverseTheArray;
+import DSA450.Array0_ReverseTheArray;
 
 class Hello {
     public static void main(String[] args) {
-        ReverseTheArray rsa = new ReverseTheArray();
+        Array0_ReverseTheArray rsa = new Array0_ReverseTheArray();
         String rev = rsa.reverseWord("vatsal");
         System.out.println(rev);
     }

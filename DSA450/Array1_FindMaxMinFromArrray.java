@@ -10,7 +10,7 @@ class Pair {
     }
 }
 
-public class FindMaxMinFromArrray {
+public class Array1_FindMaxMinFromArrray {
     public Pair getMinMax(long a[], long n) {
         long min = Long.MAX_VALUE;
         long max = Long.MIN_VALUE;
