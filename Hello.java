@@ -5,12 +5,14 @@ import java.io.*;
 import java.util.*;
 
 import DSA450.Array0_ReverseTheArray;
+import DSA450.SearchSort0_FirstLastOccurrences;
 
 class Hello {
     public static void main(String[] args) {
-        Array0_ReverseTheArray rsa = new Array0_ReverseTheArray();
-        String rev = rsa.reverseWord("vatsal");
-        System.out.println(rev);
+        int[] arr =  {1,2,5,5,5,5,67,123,125};
+        SearchSort0_FirstLastOccurrences s = new SearchSort0_FirstLastOccurrences();
+        s.find(arr, 9, 5);
+        
     }
 }
 
