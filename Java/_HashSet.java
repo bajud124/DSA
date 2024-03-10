@@ -27,6 +27,7 @@ public class _HashSet {
         set.add(3);
         set.add(4);
         set.add(4);
+        set.add(4);
         System.out.println(set);
 
         /**

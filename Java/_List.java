@@ -57,6 +57,7 @@ public class _List {
          */
         list.add(3, 50);
 
+        int[] temp = new int[9];
         /**
          * Get value of given index from the list
          * with time complexity O(1)

@@ -1,3 +1,4 @@
+package Common;
 public class CommonFunction {
     public void ArraySwap(int[] arr, int i, int j) {
         int temp = arr[i];

@@ -1,4 +1,6 @@
 // https://practice.geeksforgeeks.org/problems/reverse-a-string/1
+package GFG;
+
 
 public class ReverseString {
     // Complete the function
